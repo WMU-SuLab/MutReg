@@ -50,11 +50,14 @@ Example data are shown below:
 
 ```
 blood1.bed:
-chr10	100733067	100733578	silencer303498	CAACATTTAAACTTGGTTTGCCCTGGACCT...
-chr10	109698434	109698945	silencer307753	CCGCAAGGAAATTACTGTAACTTTGTGGCA...
+chr1	867416	867416	C	T	DO221548	chr1	866948	867459	silencer33	GAGCCCTCA...	1
+chr1	870064	870064	C	T	DO52747	chr1	870020	870531	silencer39	CGACGCCCA...	1
+chr1	2962090	2962090	C	T	DO221548	chr1	2961707	2962218	silencer2116	CCCTCCTCC...	1
+
 blood2.bed:
-chr10	100733067	100733578	silencer303498	CAACATTTAAACTTGGTTTGCCCTGAACCT...
-chr10	109698434	109698945	silencer307753	CCACAAGGAAATTACTGTAACTTTGTGGCA...
+chr1	867416	867416	C	T	DO221548	chr1	866948	867459	silencer33	GAGCCCTCACG...	1
+chr1	870064	870064	C	T	DO52747	chr1	870020	870531	silencer39	CGACGCCCAGC...	1
+chr1	2962090	2962090	C	T	DO221548	chr1	2961707	2962218	silencer2116	CCCTCCTCCAA...	1
 ```
 
 This repository includes three types of regulatory elements(silencer、enhancer、promoter), and for each type, there are 13 tissue-specific .bed files (e.g., blood, brain, liver, etc.), each containing the initial DNA sequence information used in our model.

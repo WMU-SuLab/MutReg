@@ -3,8 +3,8 @@ MutReg integrates mutation impact scoring that quantifies the effects of mutatio
 
 ## 1.Create the initial environment
 ```
-conda create -n Regdriver-SC python=3.8
-conda activate Regdriver-SC
+conda create -n MutReg python=3.8
+conda activate MutReg
 
 git clone https://github.com/openai/triton.git
 cd triton/python

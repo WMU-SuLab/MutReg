@@ -118,9 +118,9 @@ python background.py \
   --project_name blood 
 ```
 
-## 7.Mutation impact score correction and burden test
+## 7.Mutation disruption score correction and burden test
 
-Regdriver-SC integrates mutation impact scoring that quantifies the effects of mutations on regulatory elements with mutation burden analysis to distinguish driver mutations from non-driver mutations and to identify true driver events.
+MutReg integrates mutation disruption scoring that quantifies the effects of mutations on regulatory elements with mutation burden analysis to distinguish driver mutations from non-driver mutations and to identify true driver events.
 ```
 python infer_mutation_burden_impact.py \
   --mutations_maf /path/data/mutation_hg19/blood_non_coding_hg19.maf \

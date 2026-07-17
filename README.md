@@ -1,5 +1,5 @@
 # MutReg
-Regdriver-SC integrates mutation impact scoring that quantifies the effects of mutations on regulatory elements with mutation burden analysis to distinguish driver mutations from non-driver mutations and to identify true driver events.
+MutReg integrates mutation impact scoring that quantifies the effects of mutations on regulatory elements with mutation burden analysis to distinguish driver mutations from non-driver mutations and to identify true driver events.
 
 ## 1.Create the initial environment
 ```

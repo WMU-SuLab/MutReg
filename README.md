@@ -42,7 +42,7 @@ conda config --add channels conda-forge
 
 
 The complete data is stored on Zenodo:
-https://zenodo.org/records/18765050?token=eyJhbGciOiJIUzUxMiJ9.eyJpZCI6IjE3OGVhMjZhLTlhNjktNDJjZC1iOGVhLTkwM2MwMGY3NmE1ZSIsImRhdGEiOnt9LCJyYW5kb20iOiIxZGIyMmE5ZTBhMDExOWZiNWViZTc5YzQxM2ZiY2IxZiJ9.ln5wAnSKBwo9iDZCqBDwBQkgXo2P1VFdfxyL8TovEHN0HUMbvooDVaFMf-Grx8IC8knIvmCkFk8s-mouXckl7Q
+ https://zenodo.org/records/18765050
 
 The files blood1.bed and blood2.bed are example datasets provided with this repository.
 Each file contains four columns: chr, start, end, and binID (the regulatory element name), as well as the corresponding DNA sequence information for that element.
